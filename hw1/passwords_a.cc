@@ -1,6 +1,4 @@
 #include <iostream>
-#include <iterator>
-#include <ostream>
 #include <string>
 
 int main(int argc, char *argv[]) {
