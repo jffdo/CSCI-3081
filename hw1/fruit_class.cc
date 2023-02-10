@@ -33,7 +33,7 @@ using namespace std;
 // Fruit
 
 class Fruit {
-public:
+ public:
   Fruit() : name("NA"), number(0) {}
   Fruit(string name, int number) {
     this->name = name;
@@ -43,7 +43,7 @@ public:
   int getNumber() { return number; }
   ~Fruit() { cout << "Deallocating fruit " << name << endl; }
 
-private:
+ private:
   string name;
   int number;
 };
