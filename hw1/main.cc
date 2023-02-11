@@ -5,7 +5,6 @@
 #include <string>
 #include <vector>
 
-// #inclide "./duck.cc"
 #include "./canvasback.h"
 #include "./duck.h"
 #include "./mallard.h"
@@ -32,11 +31,9 @@ int main() {
   //  CanvasBack, 5.8
   //  Domestic Duck, 2.5
 
-  // TODO part C: Create an instance of each of the children classes in the
-  // main function.
-  Duck* d1 = new Mallard();
-  Duck* d2 = new Canvasback();
-  Duck* d3 = new Rubber();
+  Duck* d1 = new Mallard("Al", 10, 10);
+  Duck* d2 = new Canvasback("Bee", 10, 10);
+  Duck* d3 = new Rubber("Car", 10, 10);
   std::cout << "----------" << std::endl;
   d1->fly();
   d1->quack();
@@ -53,9 +50,13 @@ int main() {
   d3->swim();
   d3->display();
   std::cout << "----------" << std::endl;
+  d1->spectateBattle(*d2, *d3);
+  d1->brawl(*d2, *d3);
+  d1->chat(*d2, *d3);
+  d1->statusDisplay(*d2, *d3);
+  d1->training(*d2, *d3);
   delete d1;
   delete d2;
   delete d3;
-  // TODO part D: Demonstrate each one of your five defined functions.
   return 0;
 }
