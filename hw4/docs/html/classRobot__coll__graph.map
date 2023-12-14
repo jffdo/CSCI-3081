@@ -1,0 +1,5 @@
+<map id="Robot" name="Robot">
+<area shape="rect" id="node1" title="Represents a robot in a physical system." alt="" coords="13,171,73,197"/>
+<area shape="rect" id="node2" href="$classIEntity.html" title="Represents an entity in a physical system." alt="" coords="5,5,69,32"/>
+<area shape="rect" id="node3" href="$classBeacon.html" title="Represents a Beacon in a physical system. Beacons move using euler integration based on a specified v..." alt="" coords="59,81,130,108"/>
+</map>

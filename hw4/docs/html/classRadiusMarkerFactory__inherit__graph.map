@@ -1,0 +1,4 @@
+<map id="RadiusMarkerFactory" name="RadiusMarkerFactory">
+<area shape="rect" id="node1" title="Drone Factory to produce Drones class." alt="" coords="5,80,164,107"/>
+<area shape="rect" id="node2" href="$classIEntityFactory.html" title="Composite Factory Interface." alt="" coords="29,5,141,32"/>
+</map>
